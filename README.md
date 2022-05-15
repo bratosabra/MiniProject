@@ -37,10 +37,10 @@
 ## Генератор паролей
 1.  Подключите модуль random;
 2.  Создайте строковые константы:
-    - digits: 0123456789;
-    - lowercase_letters: abcdefghijklmnopqrstuvwxyz;
-    - uppercase_letters: ABCDEFGHIJKLMNOPQRSTUVWXYZ;
-    - punctuation: !#$%&*+-=?@^_.
+    - digits: **0123456789**;
+    - lowercase_letters: **abcdefghijklmnopqrstuvwxyz**;
+    - uppercase_letters: **ABCDEFGHIJKLMNOPQRSTUVWXYZ**;
+    - punctuation: **!#$%&*+-=?@^_.**
 3.  Создайте переменную chars = '', которая будет содержать все символы, которые могут быть в генерируемом пароле.
 4.  Программа должна запрашивать у пользователя следующую информацию:
     - Количество паролей для генерации;
@@ -56,5 +56,6 @@
 
 -   length: длину пароля;
 -   chars: алфавит из символов которого состоит пароль;
+
 и возвращает пароль.
 Используя цикл for, сгенерируйте необходимое количество паролей.
